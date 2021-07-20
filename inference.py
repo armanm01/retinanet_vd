@@ -42,7 +42,7 @@ print(image.shape)
 draw = image.copy()
 draw = cv2.cvtColor(draw, cv2.COLOR_BGR2RGB)
 
-image, scale = resize_image(image,2000,2000)
+#image, scale = resize_image(image,2000,2000)
 
 # process image
 start = time.time()
